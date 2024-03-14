@@ -1,0 +1,19 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TrafficTemplate 12
+FileCreator = CarMaker 12.0.1
+Info = Example Traffic Object Template
+Color = 1.0 0.65 0.0
+ObjectClass = Unknown
+ObjectKind = StatWithName
+RCSClass = RCS_Car
+Movie.Geometry = TrafficCones/TrafficCone_Large_Orange.obj
+Basics.Dimension = 4.28 1.82 1.28
+Basics.Offset = 0.0 0.0
+Basics.Fr12CoM = 2.14
+Motion.Kind = Ball
+Motion.mass = 1600
+LVD.AxMax = 6.5
+LVD.vMax = 270
+LVD.Pmax = 260
+LVD.tBuildUp = 0.15
+SDweight = 0.05

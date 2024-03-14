@@ -1,0 +1,40 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-RTTire 3
+FileCreator = tireutil v11.1.1, 2023-06-23, 16:40:07
+CreateArgs = -if Data/Tire/Examples/RT_185_65R15_p2.50.tdx -of Data/Tire/Examples/RT_185_65R15_p2.50 
+
+Description:
+	Created with IPG Tire Data Set Generator - Version Date: 2021-04-06
+	Generated - not validated - Tire data
+	Based on 'RT_185_65R15_p2.50.tdx'
+	""
+	#   Load:      32 points [ 0 N  to  8250 N ]
+	#   Slip:     128 points [ -0.15   to  0.15 ]
+	#   Alpha:    128 points [ -12 deg  to  12 deg ]
+
+Side = left
+muRoad = 1
+
+Radial.Stiffness = 366030
+Radial.Damping = 4295.1
+
+KinRollRadius = 0.301932
+NomRadius = 0.3105
+NomWidth = 0.185
+AspectRatio = 0.65
+
+FLoadMax = 6600
+
+LongFrc.Length = 0.05
+SideFrc.Length = 0.1
+AlignTrq.Length = 0.1
+
+StandStill.cLong = 0.01
+StandStill.cSide = 0.2
+
+
+RollResist.Kind = TrqLoad
+RollResist.Factor = 0.0214
+
+BinFName = RT_185_65R15_p2.50.bin
+

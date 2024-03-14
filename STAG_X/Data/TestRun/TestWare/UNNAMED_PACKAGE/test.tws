@@ -1,0 +1,18 @@
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
+FileIdent = CarMaker-TestWareTemplate 1.0
+FileCreator = CarMaker 12.0.1
+Description:
+Name = UNNAMED TEST
+Image =
+OnlineDoc =
+LastChange = 2024-02-15 19:01:15 habro
+Mode = standard
+Step.0 = Settings
+Step.0.Name = Global Settings
+Step.1 = Cmd
+Step.1.Name = ScriptControl Commands
+Step.1.Cmd:
+Step.2 = TestRun
+Step.2.Name = FSUK_Sprint
+Step.2.Var.0.Name = Variation 0
+Step.2.Var.0.Param =
